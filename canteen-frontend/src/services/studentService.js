@@ -13,10 +13,10 @@ export const signupStudent = async (studentData) => {
 // -------------------------
 // 🔹 Login a student
 // -------------------------
-export const loginStudent = async (credentials) => {
-  const res = await axios.post(`${BASE_URL}/student/login`, credentials);
-  return res.data; // returns token, student_id
-};
+// export const loginStudent = async (credentials) => {
+//   const res = await axios.post(`${BASE_URL}/student/login`, credentials);
+//   return res.data; // returns token, student_id
+// };
 
 // -------------------------
 // 🔹 Fetch student profile
